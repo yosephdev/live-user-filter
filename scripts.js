@@ -17,7 +17,7 @@ async function getData() {
   console.log(results);
 
   //Clear results
-  results.innerHTML = "";
+  result.innerHTML = "";
 
   results.forEach((user) => {
     console.log(user);
@@ -32,5 +32,7 @@ async function getData() {
                 <p>${user.location.city}, ${user.location.country}</p>
             </div>
         `;
+
+    result.appendChild(li);
   });
 }
