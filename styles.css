@@ -2,3 +2,13 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url("https://i.pinimg.com/originals/e6/8c/22/e68c2253c9a41fb1287810a1d1ed14cc.jpg");  
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
