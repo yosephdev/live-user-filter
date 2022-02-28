@@ -33,3 +33,12 @@ body {
 .header input:focus {
   outline: none;
 }
+
+.user-list {
+  background-color: #f8f9fd;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-height: 400px;
+  overflow-y: auto;
+}
