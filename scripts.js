@@ -13,7 +13,7 @@ getData();
 filter.addEventListener("input", (e) => fetchData(e.target.value));
 
 async function getData() {
-  const res = await fetch("https://randomuser.me/api?results=100");
+  const res = await fetch("https://randomuser.me/api?results=70");
 
   const { results } = await res.json();
   console.log(results);
@@ -28,10 +28,10 @@ async function getData() {
     listItems.push(li);
 
     li.innerHTML = `
-            <img src="${user.picture.large}" alt="${user.name.first}">
+            <img class="h-10 w-10 rounded-full" src="${user.picture.large}" alt="${user.name.first}">
             <div class="user-info">
-                <h4>${user.name.first} ${user.name.last}</h4>
-                <p>${user.location.city}, ${user.location.country}</p>
+                <h4 >${user.name.first} ${user.name.last}</h4>
+                <p  class="text-sm font-medium text-slate-900" >${user.location.city}, ${user.location.country}</p>
             </div>
         `;
 
@@ -39,7 +39,7 @@ async function getData() {
   });
 }
 
-function filterData(searchTerm) {
+function fetchData(searchTerm) {
   listItems.forEach((item) => {
     if (item.innerText.toLowerCase().includes(searchTerm.toLowerCase())) {
       item.classList.remove("hide");
