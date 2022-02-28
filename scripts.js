@@ -16,10 +16,12 @@ async function getData() {
   const { results } = await res.json();
   console.log(results);
 
-  //Clear result
+  //Clear results
   results.innerHTML = "";
 
-   results.forEach((user) => {
-     console.log(user);
-   });
+  results.forEach((user) => {
+    console.log(user);
+
+    const li = document.createElement("li");
+  });
 }
