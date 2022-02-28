@@ -20,6 +20,12 @@ body {
   width: 300px;
 }
 
+.header {
+  background-color: #164e63;
+  color: #fff;
+  padding: 30px 20px;
+}
+
 .title {
   margin: 0;
 }
@@ -35,7 +41,7 @@ body {
 }
 
 .user-list {
-  background-color: #f8f9fd;
+  background-color: #fff;
   list-style-type: none;
   margin: 0;
   padding: 0;
