@@ -54,3 +54,7 @@ body {
   height: 50px;
   width: 50px;
 }
+
+.user-list .user-info {
+  margin-left: 10px;
+}
