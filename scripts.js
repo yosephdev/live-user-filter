@@ -5,3 +5,5 @@ const result = document.getElementById("result");
 
 // this constant allows us to access the value of the user's input, i.e. the search word 
 const filter = document.getElementById("filter");
+
+const listItems = [];
