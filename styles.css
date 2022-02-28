@@ -20,12 +20,6 @@ body {
   width: 300px;
 }
 
-.header {
-  background-color: #164e63;
-  color: #fff;
-  padding: 30px 20px;
-}
-
 .title {
   margin: 0;
 }
@@ -34,6 +28,22 @@ body {
   display: inline-block;
   margin: 5px 0 20px;
   opacity: 0.8;
+}
+
+.header {
+  background-color: #164e63;
+  color: #fff;
+  padding: 30px 20px;
+}
+
+.header input {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 0;
+  border-radius: 50px;
+  color: #44403c;
+  font-size: 14px;
+  padding: 10px 15px;
+  width: 100%;
 }
 
 .header input:focus {
