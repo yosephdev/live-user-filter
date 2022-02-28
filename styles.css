@@ -42,3 +42,8 @@ body {
   max-height: 400px;
   overflow-y: auto;
 }
+
+.user-list li {
+  display: flex;
+  padding: 20px;
+}
