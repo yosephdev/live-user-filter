@@ -47,3 +47,10 @@ body {
   display: flex;
   padding: 20px;
 }
+
+.user-list img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+}
