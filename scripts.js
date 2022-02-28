@@ -18,4 +18,8 @@ async function getData() {
 
   //Clear result
   results.innerHTML = "";
+
+   results.forEach((user) => {
+     console.log(user);
+   });
 }
