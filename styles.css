@@ -19,3 +19,8 @@ body {
   overflow: hidden;
   width: 300px;
 }
+
+.title {
+  margin: 0;
+}
+
