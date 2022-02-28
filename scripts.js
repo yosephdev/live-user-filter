@@ -23,5 +23,6 @@ async function getData() {
     console.log(user);
 
     const li = document.createElement("li");
+    listItems.push(li);
   });
 }
