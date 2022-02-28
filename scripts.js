@@ -11,3 +11,5 @@ const listItems = [];
 async function getData() {
   const res = await fetch("https://randomuser.me/api?results=100");
 }
+
+const data = await res.json();
