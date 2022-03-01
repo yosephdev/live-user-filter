@@ -28,10 +28,10 @@ async function getData() {
     listItems.push(li);
 
     li.innerHTML = `
-            <img class="h-10 w-10 rounded-full" src="${user.picture.large}" alt="${user.name.first}">
+            <img  src="${user.picture.large}" alt="${user.name.first}">
             <div class="user-info">
-                <h4 >${user.name.first} ${user.name.last}</h4>
-                <p  class="text-sm font-medium text-slate-900" >${user.location.city}, ${user.location.country}</p>
+                <h4 class="text-xl font-normal leading-normal mt-0 mb-2 text-blueGray-800" >${user.name.first} ${user.name.last}</h4>
+                <p class="text-sm font-medium text-slate-900" >${user.location.city}, ${user.location.country}</p>
             </div>
         `;
 
