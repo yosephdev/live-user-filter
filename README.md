@@ -37,7 +37,7 @@ The Live User Filter project fetches data from an open API containing informatio
 - HTML
 - CSS
 - JavaScript
-- Open API (used to fetch user data)
+- Random User API (used to fetch user data)
 
 ## How to Run Locally
 
