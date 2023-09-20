@@ -51,8 +51,8 @@ If you want to run this project locally on your machine, follow these steps:
    # Navigate to the project directory
    cd live-user-filter
 
-   # Open the index.html file in your web browser
+3. Open the index.html file in your web browser
 
-   # That's it! You can now use the Live User Filter application locally on your machine.
+   That's it! You can now use the Live User Filter application locally on your machine.
 
 
